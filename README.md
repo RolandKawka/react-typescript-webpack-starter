@@ -1,6 +1,4 @@
-# Project Title
-
-react-typescript-webpack-starter v1.0.0
+# react-typescript-webpack-starter v1.0.0
 
 ## Getting Started
 
