@@ -1,6 +1,7 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require('webpack');
 
 module.exports = {
     mode: "development",
@@ -48,7 +49,8 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "style.css",
             chunkFilename: "[name].css"
-        })
+        }),
+        new webpack.HotModuleReplacementPlugin()
     ],
     devtool: "source-map",
     resolve: {
