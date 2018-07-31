@@ -2,7 +2,6 @@
   "name": "react-typescript-webpack-starter",
   "version": "1.0.0",
   "description": "Simple TS + React starting kit",
-  "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",

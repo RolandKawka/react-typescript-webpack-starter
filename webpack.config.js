@@ -48,7 +48,7 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "style.css",
             chunkFilename: "[name].css"
-          })
+        })
     ],
     devtool: "source-map",
     resolve: {
